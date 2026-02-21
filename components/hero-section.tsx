@@ -54,13 +54,13 @@ export default function HeroSection() {
             className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6 pt-8"
           >
             <Link
-              href="/find-mentor"
+              href="/onboarding"
               className="inline-flex h-14 w-full sm:w-auto min-w-[200px] items-center justify-center rounded-md bg-primary px-8 text-lg font-bold text-black transition-all hover:bg-primary/90 hover:scale-105"
             >
               Find a Mentor
             </Link>
             <Link
-              href="/become-mentor"
+              href="/onboarding"
               className="inline-flex h-14 w-full sm:w-auto min-w-[200px] items-center justify-center rounded-md border-2 border-zinc-700 bg-black/40 px-8 text-lg font-bold text-white transition-all hover:bg-zinc-800 hover:border-zinc-500 hover:scale-105 backdrop-blur-sm"
             >
               Become a Mentor

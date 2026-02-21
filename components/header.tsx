@@ -56,13 +56,13 @@ export default function Header() {
           {/* Actions */}
           <div className="flex items-center gap-4">
             <Link
-              href="/login"
+              href="/onboarding/login"
               className="hidden sm:flex text-sm font-medium text-white hover:text-primary transition-colors"
             >
               Login
             </Link>
             <Link
-              href="/signup"
+              href="/onboarding"
               className="hidden sm:flex items-center justify-center rounded-full bg-primary px-5 py-2 text-sm font-bold text-black transition-transform hover:scale-105"
             >
               Get Started
@@ -108,14 +108,14 @@ export default function Header() {
               ))}
               <hr className="w-full border-zinc-800" />
               <Link
-                href="/login"
+                href="/onboarding/login"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="text-xl font-medium text-white hover:text-primary"
               >
                 Login
               </Link>
               <Link
-                href="/signup"
+                href="/onboarding"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="flex w-full items-center justify-center rounded-full bg-primary py-4 text-black font-bold"
               >
