@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { Mail, Lock, X } from "lucide-react";
+import { Mail, X } from "lucide-react";
 
 export default function LoginPage() {
   const router = useRouter();
